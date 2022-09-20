@@ -1,4 +1,40 @@
+body{
+    margin: 0;
+}
+
+main{
+    min-height: 80vh;
+}
+
+header{
+    background-color: rgb(85, 171, 142);
+    color: rgb(235, 235, 235);
+}
+
 .center{
     display: flex;
     justify-content: center;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.container{
+    margin: auto 25px;
+    padding: auto 25px;
+}
+
+.row{
+    width: 100%;
+}
+
+.column{
+    width: 50%;
+}
+
+footer{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding: 10px 0;
 }
