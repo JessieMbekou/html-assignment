@@ -7,8 +7,14 @@ main{
 }
 
 header{
-    background-color: rgb(85, 171, 142);
+    background-color: #0ca15b;
     color: rgb(235, 235, 235);
+}
+
+.color-y{
+    color: #0ca15b;
+    text-decoration: underline;
+    /* text-shadow: -1px 1px #847f03; */
 }
 
 .center{
@@ -29,8 +35,30 @@ header{
     width: 100%;
 }
 
-.column{
+.column-1{
     width: 50%;
+    margin-left: 5%;
+}
+
+.column-2{
+    width: 35%;
+    display: flex;
+    justify-content: start;
+}
+
+.column-2.img{
+    position: absolute;
+    right: 0;
+    top: calc(20%);
+}
+.img-wrapper{
+    width: 28rem;
+    height: 30rem;
+    overflow: hidden;
+}
+.column-2 .img-wrapper .image{
+    height: 100%;
+    width: 100%;
 }
 
 footer{
