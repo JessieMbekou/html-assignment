@@ -31,10 +31,16 @@ header{
     padding: auto 25px;
 }
 
-.row{
+.column-1{
     width: 100%;
+    margin: 0;
 }
 
+.column-2{
+    display: none;
+}
+
+@media(min-width:767px){
 .column-1{
     width: 50%;
     margin-left: 5%;
@@ -54,6 +60,7 @@ header{
 .img-wrapper{
     width: 28rem;
     height: 30rem;
+    margin-right: 2rem;
     overflow: hidden;
 }
 .column-2 .img-wrapper .image{
@@ -61,6 +68,7 @@ header{
     width: 100%;
 }
 
+}
 footer{
     background-color: rgb(59, 59, 59);
     color: white;
