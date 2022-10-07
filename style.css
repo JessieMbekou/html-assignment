@@ -79,7 +79,7 @@ nav a:hover, nav a.active{
 .column-2.img{
     position: absolute;
     right: 0;
-    top: calc(20%);
+    top: calc(9rem);
 }
 .img-wrapper{
     width: 28rem;
@@ -88,7 +88,7 @@ nav a:hover, nav a.active{
     overflow: hidden;
 }
 .column-2 .img-wrapper .image{
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
 }
 
@@ -114,4 +114,47 @@ footer{
 
 dl dt{
     font-weight: bold;
+}
+
+@media(min-width:1500px){
+    article{
+        margin-bottom: 8%;
+    }
+}
+
+.h-list{
+    list-style-type: square;
+}
+
+.table-responsive{
+    overflow-x: auto !important;
+}
+
+table {
+    margin: 3rem auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table>caption{
+    margin-bottom: 5px;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dbfdd5;
+}
+
+td:first-child{
+    font-weight: bold;
+}
+
+thead tr{
+    background-color: #0ca15b;
+    color: white;
 }
